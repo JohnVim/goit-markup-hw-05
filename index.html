@@ -20,7 +20,7 @@
             <!-- Navbar -->
             <nav>
                 <a href="#">
-                    <b class="navbar-text">Studio</b>
+                    <b class="navbar-text active">Studio</b>
                 </a>
                 <a href="portfolio.html">
                     <b class="navbar-text">Portfolio</b>
@@ -52,7 +52,12 @@
                 <h1>Effective Solutions <br>for Your Business</h1>
             </div>
             <div>
-                <button>Order Service</button>
+                <button type="button" data-modal-open>Order Service</button>
+            </div>
+            <div class="modal is-hidden">
+                <div class="data-modal" data-modal>
+                    <button data-modal-close>&times;</button>
+                </div>
             </div>
         </section>
 
@@ -329,22 +334,22 @@
                 <p>Social Media</p>
                 <div class="card-socials">
                             <a class="card-socials-icon" href="">
-                                <svg width="16px" height="16px">
+                                <svg width="24px" height="24px">
                                     <use href="./images/icons.svg#instagram-2"></use>
                                 </svg>
                             </a>
                             <a class="card-socials-icon" href="">
-                                <svg width="16px" height="16px">
+                                <svg width="24px" height="24px">
                                     <use href="./images/icons.svg#twitter-1"></use>
                                 </svg>
                             </a>
                             <a class="card-socials-icon" href="">
-                                <svg width="16px" height="16px">
+                                <svg width="24px" height="24px">
                                     <use href="./images/icons.svg#facebook-1"></use>
                                 </svg>
                             </a>
                             <a class="card-socials-icon" href="">
-                                <svg width="16px" height="16px">
+                                <svg width="24px" height="24px">
                                     <use href="./images/icons.svg#linkedin-1"></use>
                                 </svg>
                             </a>
@@ -353,6 +358,6 @@
         </section>
         <!-- End of Logo Section -->
     </footer>
-    
+    <script src="./js/modal.js" type="text/javascript"></script>
 </body>
 </html>
