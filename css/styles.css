@@ -224,8 +224,9 @@ nav .active {
     width: 30px;
     color: var(--OCEAN);
     margin-left: auto;
+    margin-top: 10px;
+    margin-right: 10px;
     display: block;
-    margin-top: 0;
 }
 
 .is-hidden {
